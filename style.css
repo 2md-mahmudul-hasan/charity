@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&display=swap');
+body{
+  font-family: 'Playfair Display', serif;
+}
+.hero-section{
+  background-image: url('./image/donation13.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.hero-content{
+  color: #fff;
+  width: 70%;
+  text-align: center;
+  padding: 100px 200px;
+  margin:auto;
+}
+.hero-section h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero-section p{
+  font-size: 20px;
+  color:antiquewhite;
+}
+.hero-btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: palevioletred;
+  font-size: 18px;
+  border:none;
+  margin-top:10px;
+  color: #fff;
+}
+
+
+/* donation amount */
+.donate-section{
+  width: 70%;
+  padding: 100px 200px;
+  margin:auto;
+}
+.donate-section h2{
+  font-size: 30px;
+}
+.section-title{
+  text-align: center;
+}
+.donation-amount{
+  display: flex;
+  gap:5px;
+  justify-content: center;
+}
+
+
+.donation-amount span{
+  border:1px solid blue;
+  padding: 20px 20px;
+}
+.donation-amount .donat100{
+color:red;
+border-color: red;
+}
+input.donat-input-text {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  border:none;
+  border-bottom: 1px solid gray;
+}
+
+.donat-input-area button {
+  margin: 0 auto;
+  display: block;
+}
+input:focus{
+border:0px;
+}
