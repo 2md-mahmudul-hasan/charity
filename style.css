@@ -82,17 +82,32 @@ border:0px;
 
 
 /* donate plan */
-
-.donate-plans{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
+.donate-plan .section-title{
+  width: 70%;
+  margin:auto;
 }
 
+.donate-plans{
+  height: 100%;
+  display: flex;
+  margin:20px auto;
+  padding:50px;
+}
+.single-plan{
+  padding:10px;
+}
+.plan1{
 
+  background-color: palegoldenrod;
+}
+.plan2{
+  margin:0px 20px;
+  background-color: antiquewhite;
+}
+.plan3{
 
+  background-color: blanchedalmond;
+}
 
 
 
