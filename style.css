@@ -83,8 +83,12 @@ border:0px;
 
 /* donate plan */
 .donate-plan .section-title{
-  width: 70%;
+  width: 50%;
   margin:auto;
+}
+
+.donate-plan .section-title h2{
+  font-size: 35px;
 }
 
 .donate-plans{
@@ -110,7 +114,38 @@ border:0px;
 }
 
 
+/* update area */
+.update-title{
+  width: 50%;
+  margin:20px auto;
+  text-align: center;
+}
+.update-title h2{
+  font-size: 35px;
+}
+.update-form{
+  text-align: center;
+  width: 70%;
+  background-color: wheat;
+  margin: 0 auto;
+  padding:50px 50px;
+  margin-bottom: 20px;
 
+}
+input[type="email"] {
+  padding: 10px 30px;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+}
+button.subscribe-btn {
+  background-color: lightpink;
+  padding: 10px 20px;
+  border: navajowhite;
+  border-radius: 2px;
+  font-size: 18px;
+}
+/* end update area */
 
 
 .footer-area{
